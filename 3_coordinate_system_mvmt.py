@@ -23,6 +23,8 @@ while True:
     elif pomak == "L":
         x = x -1
     elif pomak == "Q":
-        print("T(" + str(x) + "," + str(y) + ")")
+        break
     else:
         print ("You entered wrong value!!")
+
+print("T(" + str(x) + "," + str(y) + ")")
